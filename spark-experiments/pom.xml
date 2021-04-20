@@ -20,9 +20,10 @@
         <scala.plugin.version>2.15.2</scala.plugin.version>
 
         <scalatest.version>3.2.3</scalatest.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13</junit.version>
         <mockito.version>2.23.0</mockito.version>
 
+        <breeze.version>1.0</breeze.version>
         <mongo.java.driver.version>3.12.0</mongo.java.driver.version>
         <mongo.spark.connector.version>3.0.1</mongo.spark.connector.version>
     </properties>
@@ -37,6 +38,11 @@
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-sql_${scala.binary.version}</artifactId>
             <version>${spark.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalanlp</groupId>
+            <artifactId>breeze_${scala.binary.version}</artifactId>
+            <version>${breeze.version}</version>
         </dependency>
         <dependency>
             <groupId>org.scala-lang</groupId>
