@@ -24,7 +24,7 @@
         <mockito.version>2.23.0</mockito.version>
 
         <breeze.version>1.0</breeze.version>
-        <mongo.java.driver.version>3.12.0</mongo.java.driver.version>
+        <mongo.java.driver.version>3.12.8</mongo.java.driver.version>
         <mongo.spark.connector.version>3.0.1</mongo.spark.connector.version>
     </properties>
 
